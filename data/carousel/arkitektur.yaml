@@ -1,0 +1,9 @@
+weight: 3
+title: "Arkitektur"
+description: >
+  <ul class="list-style-none">
+    <li>Mjukvaruarkitektur</li>
+    <li>Mentorskap</li>
+    <li>Granskning och utvärdering</li>
+  </ul>
+image: "img/carousel/programming.jpg"

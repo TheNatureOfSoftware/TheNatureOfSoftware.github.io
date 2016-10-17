@@ -1,0 +1,9 @@
+weight: 2
+title: "Att arbeta testdrivet"
+description: >
+  <ul class="list-style-none">
+    <li>Teststrategi</li>
+    <li>Automatiserade tester</li>
+    <li>Testdriven utveckling</li>
+  </ul>
+image: "img/carousel/template-easy-code.png"
