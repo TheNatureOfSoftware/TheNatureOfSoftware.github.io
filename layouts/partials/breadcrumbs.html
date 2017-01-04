@@ -2,8 +2,11 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <!-- <h1> {{ .Title }}</h1> -->
-                <h1> Bloggar</h1>
+                {{ if eq .Title "Blogs" }}
+                <h1> Blogg</h1>
+                {{ else }}
+                <h1> {{ .Title }}</h1>
+                {{ end }}
             </div>
         </div>
     </div>
