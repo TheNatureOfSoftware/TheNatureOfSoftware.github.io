@@ -77,6 +77,11 @@ paginate = 10
     tags = true
     search = true
 
+[params.blog]
+    enable = true
+    tags = true
+    title = "FooBar"
+
 [params.carousel]
     enable = true
     # All carousel items are defined in their own files. You can find example items
