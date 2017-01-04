@@ -10,10 +10,8 @@ banner = "img/step-by-step.png"
 
 Det är snart 16 år sedan det [The Agile Manifesto](http://agilemanifesto.org/history.html)
 skrevs och agil utveckling har blivit etablerat. Men det är fortfarande väldigt
-vanligt, speciellt i stora organisationer, att man bedriver utveckling som mer
-liknar [ScrumBut](https://www.scrum.org/scrumbut) och att teamen får stå tillbaka
-för tunga traditionella projekt- eller förvaltningsmetoder. Teamen är sällan
-speciellt sammansatta utifrån individers kompetenser och erfarenhet, utan snarare
-en slumpvis blandning av individer. Det är också vanligt att team saknar egenmakt (empowerment).
+vanligt att man bedriver utveckling med en metod som [ScrumBut](https://www.scrum.org/scrumbut) och att den stora effekten och vinsten med agil-utveckling uteblir.
+
+Det svåra är att förändra organisationen till att börja arbeta, t.ex. enligt Scrum, och resultatet blir ofta att man anpassar den agila metoden till att passa organisationen.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ucIqBXTXYJo" frameborder="0" allowfullscreen></iframe>
