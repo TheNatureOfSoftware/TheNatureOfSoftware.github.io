@@ -5,14 +5,14 @@ languageCode = "sv-se"
 # Enable comments by entering your Disqus shortname
 disqusShortname = "thenatureofsoftware"
 # Enable Google Analytics by entering your tracking code
-googleAnalytics = "UA-73372924-2"
+googleAnalytics = "UA-89872233-1"
 
 # Define the number of posts per page
 paginate = 10
 
 [params]
     viewMorePostLink     = "/blog/"
-    author = "DevCows"
+    author = "larmog"
 
     # Since this template is static, the contact form uses www.formspree.io as a
     # proxy. The form makes a POST request to their servers to send the actual
