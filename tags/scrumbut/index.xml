@@ -24,7 +24,7 @@ vanligt att man bedriver utveckling med en metod som &lt;a href=&#34;https://www
 &lt;p&gt;Det är fortfarande vanligt att de olika disciplinerna inom mjukvaruutveckling inte jobbar tillsammans med samma mål. Kravarbetet ligger ofta långt före utveckling, för att se till så att det aldrig är tomt i backlogen, utan koppling till vad teamet arbetar med. Tester görs ofta manuellt, efter att utvecklarna är klara, antingen i en ”testsprint” eller som en aktivitet utanför teamet. 2008 skrev Robert C. Martin och Grigori Melnik artikeln &lt;a href=&#34;http://www.gmelnik.com/papers/IEEE_Software_Moebius_GMelnik_RMartin.pdf&#34;&gt;Tests and Requirements, Requirements and Tests: A Möbius Strip&lt;/a&gt;
 som beskriver hur krav och test går hand i hand och att tester kan driva kravarbetet.&lt;/p&gt;
 
-&lt;p&gt;Här följer en whiteboard video som försöker beskriva problemet. Att bygga mjukvara är svårt och kräver teamwork, låt oss inte görare svårare än det behöver vara.&lt;/p&gt;
+&lt;p&gt;Här följer en whiteboard video som försöker beskriva problemet. Att bygga mjukvara är svårt och kräver teamwork, låt oss inte göra det svårare än det behöver vara.&lt;/p&gt;
 
 &lt;div class=&#34;embed-responsive embed-responsive-16by9&#34;&gt;
 &lt;iframe class=&#34;embed-responsive-item&#34; src=&#34;https://www.youtube.com/embed/ucIqBXTXYJo&#34;&gt;&lt;/iframe&gt;
