@@ -17,7 +17,7 @@ Det svåra är att förändra organisationen till att börja arbeta, t.ex. enlig
 Det är fortfarande vanligt att de olika disciplinerna inom mjukvaruutveckling inte jobbar tillsammans med samma mål. Kravarbetet ligger ofta långt före utveckling, för att se till så att det aldrig är tomt i backlogen, utan koppling till vad teamet arbetar med. Tester görs ofta manuellt, efter att utvecklarna är klara, antingen i en ”testsprint” eller som en aktivitet utanför teamet. 2008 skrev Robert C. Martin och Grigori Melnik artikeln [Tests and Requirements, Requirements and Tests: A Möbius Strip](http://www.gmelnik.com/papers/IEEE_Software_Moebius_GMelnik_RMartin.pdf)
 som beskriver hur krav och test går hand i hand och att tester kan driva kravarbetet.
 
-Här följer en whiteboard video som försöker beskriva problemet. Att bygga mjukvara är svårt och kräver teamwork, låt oss inte görare svårare än det behöver vara.
+Här följer en whiteboard video som försöker beskriva problemet. Att bygga mjukvara är svårt och kräver teamwork, låt oss inte göra det svårare än det behöver vara.
 
 <div class="embed-responsive embed-responsive-16by9">
 <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ucIqBXTXYJo"></iframe>
