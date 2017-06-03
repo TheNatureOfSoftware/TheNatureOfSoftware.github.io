@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Scrum on The Nature of Software</title>
-    <link>http://thenatureofsoftware.se/tags/scrum/</link>
+    <link>http://thenatureofsoftware.se/tags/scrum/index.xml</link>
     <description>Recent content in Scrum on The Nature of Software</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>sv-se</language>
-    <lastBuildDate>Mon, 02 Jan 2017 10:08:37 +0100</lastBuildDate>
+    <copyright>Copyright (c) 2015 - 2017, The Nature of Software Nordic AB; all rights reserved.</copyright>
     <atom:link href="http://thenatureofsoftware.se/tags/scrum/index.xml" rel="self" type="application/rss+xml" />
     
     <item>

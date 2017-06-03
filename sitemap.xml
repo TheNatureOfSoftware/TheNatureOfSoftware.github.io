@@ -2,8 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://thenatureofsoftware.se/</loc>
-    <lastmod>2017-01-02T10:08:37+01:00</lastmod>
+    <loc>http://thenatureofsoftware.se/blog/2017/06/03/vad_ar_eran_containerstrategi/</loc>
+    <lastmod>2017-06-03T11:43:35+02:00</lastmod>
   </url>
   
   <url>
@@ -12,7 +12,72 @@
   </url>
   
   <url>
+    <loc>http://thenatureofsoftware.se/tags/agile/</loc>
+    <lastmod>2017-01-02T10:08:37+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://thenatureofsoftware.se/categories/agile/</loc>
+    <lastmod>2017-01-02T10:08:37+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://thenatureofsoftware.se/tags/azure/</loc>
+    <lastmod>2017-06-03T11:43:35+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://thenatureofsoftware.se/blog/</loc>
+    <lastmod>2017-06-03T11:43:35+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://thenatureofsoftware.se/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://thenatureofsoftware.se/categories/container/</loc>
+    <lastmod>2017-06-03T11:43:35+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://thenatureofsoftware.se/tags/deis/</loc>
+    <lastmod>2017-06-03T11:43:35+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://thenatureofsoftware.se/categories/devops/</loc>
+    <lastmod>2017-06-03T11:43:35+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://thenatureofsoftware.se/categories/docker/</loc>
+    <lastmod>2017-06-03T11:43:35+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://thenatureofsoftware.se/contact/</loc>
+  </url>
+  
+  <url>
+    <loc>http://thenatureofsoftware.se/tags/kubernetes/</loc>
+    <lastmod>2017-06-03T11:43:35+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://thenatureofsoftware.se/categories/kubernetes/</loc>
+    <lastmod>2017-06-03T11:43:35+02:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -20,7 +85,60 @@
   </url>
   
   <url>
+    <loc>http://thenatureofsoftware.se/categories/metod/</loc>
+    <lastmod>2017-01-02T10:08:37+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://thenatureofsoftware.se/tags/microsoft/</loc>
+    <lastmod>2017-06-03T11:43:35+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://thenatureofsoftware.se/about/</loc>
+  </url>
+  
+  <url>
+    <loc>http://thenatureofsoftware.se/tags/projekt/</loc>
+    <lastmod>2017-01-02T10:08:37+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://thenatureofsoftware.se/tags/scrum/</loc>
+    <lastmod>2017-01-02T10:08:37+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://thenatureofsoftware.se/categories/scrum/</loc>
+    <lastmod>2017-01-02T10:08:37+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://thenatureofsoftware.se/tags/scrumbut/</loc>
+    <lastmod>2017-01-02T10:08:37+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://thenatureofsoftware.se/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://thenatureofsoftware.se/</loc>
+    <lastmod>2017-06-03T11:43:35+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://thenatureofsoftware.se/tags/utveckling/</loc>
+    <lastmod>2017-01-02T10:08:37+01:00</lastmod>
+    <priority>0</priority>
   </url>
   
 </urlset>
