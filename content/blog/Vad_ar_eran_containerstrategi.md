@@ -4,7 +4,7 @@ title = "Vad är er containerstrategi?"
 categories = ["container", "docker", "devops", "kubernetes"]
 tags = ["Microsoft", "Kubernetes", "Azure", "Deis"]
 author = "Lars Mogren"
-banner = "img/joining-microsoft.svg"
+banner = "img/deis-microsoft.png"
 draft = false
 +++
 
