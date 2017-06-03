@@ -29,7 +29,8 @@ man satsar på self-service, en av grundstenarna inom DevOps och agila organisat
 &lt;p&gt;Den främsta orkestreringslösningen för containers är &lt;a href=&#34;https://kubernetes.io&#34;&gt;Kubernetes&lt;/a&gt;.
 Kubernetes har haft (alfa) stöd för Windows Containers sedan version &lt;a href=&#34;https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG.md#v150&#34;&gt;1.5&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;I slutet på februari (2017) lanserade Microsoft Kubernetes på &lt;a href=&#34;https://azure.microsoft.com/en-us/blog/kubernetes-now-generally-available-on-azure-container-service/&#34;&gt;Azure Container Service&lt;/a&gt;.
+&lt;p&gt;&lt;img src=&#34;http://thenatureofsoftware.se/img/deis-microsoft.png&#34; style=&#34;float:left;margin-right:20px;height:80px&#34;&gt;
+I slutet på februari (2017) lanserade Microsoft Kubernetes på &lt;a href=&#34;https://azure.microsoft.com/en-us/blog/kubernetes-now-generally-available-on-azure-container-service/&#34;&gt;Azure Container Service&lt;/a&gt;.
 Azure Container Service har stöd för Windows containers i Kubernetes som en
 förhandsversion (&lt;a href=&#34;https://docs.microsoft.com/sv-se/azure/container-service/container-service-kubernetes-windows-walkthrough&#34;&gt;Kom igång med Kubernetes och Windows-behållare i Container Service&lt;/a&gt;).&lt;/p&gt;
 
