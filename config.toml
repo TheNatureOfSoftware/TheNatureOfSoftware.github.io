@@ -1,124 +1,25 @@
-baseurl = "http://thenatureofsoftware.se/"
-title = "The Nature of Software"
-theme = "hugo-universal-theme"
+baseURL = "http://thenatureofsoftware.se/"
 languageCode = "sv-se"
-# Enable comments by entering your Disqus shortname
-disqusShortname = "thenatureofsoftware"
-# Enable Google Analytics by entering your tracking code
-googleAnalytics = "UA-89872233-1"
+title = "The Nature of Software"
+theme = "ananke"
 
-# Define the number of posts per page
-paginate = 10
+MetaDataFormat = "yaml"
+DefaultContentLanguage = "en"
+SectionPagesMenu = "main"
+Paginate = 3 # this is set low for demonstrating with dummy content. Set to a higher number
+googleAnalytics = "UA-89872233-1"
+enableRobotsTXT = true
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
 
 [params]
-    viewMorePostLink     = "/blog/"
-    author = "larmog"
-
-    # Since this template is static, the contact form uses www.formspree.io as a
-    # proxy. The form makes a POST request to their servers to send the actual
-    # email. Visitors can send up to a 1000 emails each month for free.
-    #
-    # What you need to do for the setup?
-    #
-    # - set your email address under 'email' below
-    # - upload the generated site to your server
-    # - send a dummy email yourself to confirm your account
-    # - click the confirm link in the email from www.formspree.io
-    # - you're done. Happy mailing!
-    #
-    # Enable the contact form by entering your Formspree.io email
-    email = "feedback@thenatureofsoftware.se"
-
-#    about_us = "<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>"
-    copyright = "Copyright (c) 2015 - 2017, The Nature of Software Nordic AB; all rights reserved."
-    date_format = "2006-01-02"
-    logo = "images/logo-black.png"
-    address = """<p><strong>The Nature of Software Nordic AB</strong>
-        <br>Norrköping
-
-        <br>
-        <strong>Sverige</strong>
-      </p>
-      """
-    latitude = "58.5888306"
-    longitude = "16.1779161"
-
-[Permalinks]
-    blog = "/blog/:year/:month/:day/:filename/"
-
-[[params.menu]]
-    name = "Hem"
-    url  = "/"
-    weight = 1
-
-#[[params.menu]]
-#    name = "Tjänster"
-#    url  = "/"
-#    weight = 2
-
-[[params.menu]]
-    name = "Workshops och kurser"
-    url  = "/workshops/"
-    weight = 2
-
-[[params.menu]]
-    name = "Blogg"
-    url  = "/blog/"
-    weight = 3
-
-[[params.menu]]
-    name = "Kontakt"
-    url  = "/contact/"
-    weight = 4
-
-# Enable and disable widgets for the right sidebar
-[params.widgets]
-    categories = true
-    tags = true
-    search = true
-
-[params.blog]
-    enable = true
-    tags = true
-    title = "FooBar"
-
-[params.carousel]
-    enable = true
-    # All carousel items are defined in their own files. You can find example items
-    # at 'exampleSite/data/carousel'.
-    # For more informtion take a look at the README.
-
-[params.features]
-    enable = false
-    # All features are defined in their own files. You can find example items
-    # at 'exampleSite/data/features'.
-    # For more informtion take a look at the README.
-
-[params.testimonials]
-    enable = false
-    # All testimonials are defined in their own files. You can find example items
-    # at 'exampleSite/data/testimonials'.
-    # For more informtion take a look at the README.
-    title = "Testimonials"
-    subtitle = "We have worked with many clients and we always like to hear they come out from the cooperation happy and satisfied. Have a look what our clients said about us."
-
-[params.see_more]
-    enable = false
-    icon = "fa fa-file-code-o"
-    title = "Do you want to see more?"
-    subtitle = "We have prepared for you more than 40 different HTML pages, including 5 variations of homepage."
-    link_url = "#"
-    link_text = "Check other homepages"
-
-[params.clients]
-    enable = false
-    # All clients are defined in their own files. You can find example items
-    # at 'exampleSite/data/clients'.
-    # For more informtion take a look at the README.
-    title = "Our Clients"
-    subtitle = ""
-
-[params.recent_posts]
-    enable = true
-    title = "Från vår blogg"
-    # subtitle = "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo."
+  github = "https://github.com/thenatureofsoftware"
+  twitter = "https://twitter.com/thenatureofsoft"
+  instagram = "https://www.instagram.com/thenatureofsoftware/"
+  youtube = "https://www.youtube.com/channel/UCucUjFaWiPIDWqmZUVf76Aw"
+  # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
+  background_color_class = "bg-dark-gray"
+  featured_image = "/images/strykjarnet.jpg"
