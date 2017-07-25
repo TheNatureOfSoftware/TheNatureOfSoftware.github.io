@@ -2,69 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Microsoft on The Nature of Software</title>
-    <link>http://thenatureofsoftware.se/tags/microsoft/index.xml</link>
+    <link>http://thenatureofsoftware.se/tags/microsoft/</link>
     <description>Recent content in Microsoft on The Nature of Software</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>sv-se</language>
-    <copyright>Copyright (c) 2015 - 2017, The Nature of Software Nordic AB; all rights reserved.</copyright>
-    <atom:link href="http://thenatureofsoftware.se/tags/microsoft/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 03 Jun 2017 11:43:35 +0200</lastBuildDate>
+    
+	<atom:link href="http://thenatureofsoftware.se/tags/microsoft/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Vad är er containerstrategi?</title>
-      <link>http://thenatureofsoftware.se/blog/2017/06/03/vad_ar_eran_containerstrategi/</link>
+      <link>http://thenatureofsoftware.se/posts/vad_ar_eran_containerstrategi/</link>
       <pubDate>Sat, 03 Jun 2017 11:43:35 +0200</pubDate>
       
-      <guid>http://thenatureofsoftware.se/blog/2017/06/03/vad_ar_eran_containerstrategi/</guid>
-      <description>&lt;p&gt;Om du tror att Docker och containers bara är för Linux så är det dags att tänka
-om. &lt;a href=&#34;https://www.docker.com/microsoft&#34;&gt;Docker Windows Containers&lt;/a&gt; har funnits
-tillgängligt sedan &lt;a href=&#34;https://blog.docker.com/2016/09/build-your-first-docker-windows-server-container/&#34;&gt;Windows Server 2016&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Även om det är en stor fördel att paketera och drifta sina system som containers
-så är det tillsammans med en orkestreringslösning som man når de verkliga fördelarna.
-Med en orkestreringslösning för containers frikopplas applikationer och system
-från infrastruktur så som nät, disk, minne och cpu. Det innebär en stor fördel om
-man satsar på self-service, en av grundstenarna inom DevOps och agila organisationer.&lt;/p&gt;
-
-&lt;p&gt;Den främsta orkestreringslösningen för containers är &lt;a href=&#34;https://kubernetes.io&#34;&gt;Kubernetes&lt;/a&gt;.
-Kubernetes har haft (alfa) stöd för Windows Containers sedan version &lt;a href=&#34;https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG.md#v150&#34;&gt;1.5&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://thenatureofsoftware.se/img/deis-microsoft.png&#34; style=&#34;float:left;margin-right:20px;height:80px&#34;&gt;
-I slutet på februari (2017) lanserade Microsoft Kubernetes på &lt;a href=&#34;https://azure.microsoft.com/en-us/blog/kubernetes-now-generally-available-on-azure-container-service/&#34;&gt;Azure Container Service&lt;/a&gt;.
-Azure Container Service har stöd för Windows containers i Kubernetes som en
-förhandsversion (&lt;a href=&#34;https://docs.microsoft.com/sv-se/azure/container-service/container-service-kubernetes-windows-walkthrough&#34;&gt;Kom igång med Kubernetes och Windows-behållare i Container Service&lt;/a&gt;).&lt;/p&gt;
-
-&lt;p&gt;I april (2017) köpte Microsoft &lt;a href=&#34;https://deis.com/&#34;&gt;Deis&lt;/a&gt; (&lt;a href=&#34;https://blogs.microsoft.com/blog/2017/04/10/microsoft-acquire-deis-help-companies-innovate-containers&#34;&gt;Microsoft to acquire Deis to help companies innovate with containers&lt;/a&gt;),
-vars lösning för att öka Dev och Ops produktivitet med containers, bygger på Kubernetes.&lt;/p&gt;
-
-&lt;p&gt;Kubernetes finns nu tillgängligt hos alla större molnleverantörer:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.ibm.com/blogs/bluemix/2017/03/kubernetes-now-available-ibm-bluemix-container-service/&#34;&gt;IBM Bluemix Container Service&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://cloud.google.com/container-engine/&#34;&gt;Google Container Engine&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://azure.microsoft.com/en-us/blog/kubernetes-now-generally-available-on-azure-container-service/&#34;&gt;Azure Container Service&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://aws.amazon.com/about-aws/whats-new/2017/03/new-quick-start-deploys-heptio-kubernetes-on-the-aws-cloud/&#34;&gt;AWS&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;och on-premise (på egen hårdvara):&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://coreos.com/tectonic/&#34;&gt;CoreOS Tectonic&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.openshift.com/&#34;&gt;Red Hat OpenShift&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Man kan nu tydligt se vart vi är på väg och utvecklingen går otroligt fort inom
-området. För ett par år sedan var frågan för många organisationer om man skulle
-satsa på .NET eller Java (väldigt förenklat). Många organisationer har
-fortfarande valet som en strategi, men har i realiteten en väldigt blandad miljö.&lt;/p&gt;
-
-&lt;p&gt;Företag och organisationer är idag ofta teknikföretag, vare sig man vill det
-eller inte. Containers ger oss helt andra möjligheter och tillsammans med &lt;a href=&#34;https://martinfowler.com/articles/microservices.html&#34;&gt;Microservices&lt;/a&gt;,
-&lt;a href=&#34;https://continuousdelivery.com/&#34;&gt;Continuous Delivery&lt;/a&gt; och
-&lt;a href=&#34;https://www.goodreads.com/book/show/26083308-the-devops-handbook&#34;&gt;DevOps&lt;/a&gt; m.fl.
-så är det dags för många att lära om.&lt;/p&gt;
-
-&lt;p&gt;Så vad är er containerstrategi?&lt;/p&gt;
-</description>
+      <guid>http://thenatureofsoftware.se/posts/vad_ar_eran_containerstrategi/</guid>
+      <description>Om du tror att Docker och containers bara är för Linux så är det dags att tänka om. Docker Windows Containers har funnits tillgängligt sedan Windows Server 2016.
+Även om det är en stor fördel att paketera och drifta sina system som containers så är det tillsammans med en orkestreringslösning som man når de verkliga fördelarna. Med en orkestreringslösning för containers frikopplas applikationer och system från infrastruktur så som nät, disk, minne och cpu.</description>
     </item>
     
   </channel>

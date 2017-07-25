@@ -1,143 +1,177 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://thenatureofsoftware.se/blog/2017/06/03/vad_ar_eran_containerstrategi/</loc>
-    <lastmod>2017-06-03T11:43:35+02:00</lastmod>
+    <loc>http://thenatureofsoftware.se/posts/strategiska_val_for_en_teknikplattform/</loc>
+    <lastmod>2017-06-04T11:58:13+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://thenatureofsoftware.se/blog/2017/01/02/traditionella-projekt-och-roller-vs-agile-utv/</loc>
+    <loc>http://thenatureofsoftware.se/posts/vad_ar_eran_containerstrategi/</loc>
+    <lastmod>2017-06-03T11:43:35+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://thenatureofsoftware.se/posts/traditionella-projekt-och-roller-vs-agile-utv/</loc>
     <lastmod>2017-01-02T10:08:37+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://thenatureofsoftware.se/posts/heres_a_tought/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://thenatureofsoftware.se/tags/agile/</loc>
     <lastmod>2017-01-02T10:08:37+01:00</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://thenatureofsoftware.se/categories/agile/</loc>
     <lastmod>2017-01-02T10:08:37+01:00</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://thenatureofsoftware.se/tags/azure/</loc>
     <lastmod>2017-06-03T11:43:35+02:00</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://thenatureofsoftware.se/blog/</loc>
-    <lastmod>2017-06-03T11:43:35+02:00</lastmod>
-    <priority>0</priority>
+    <loc>http://thenatureofsoftware.se/posts/</loc>
+    <lastmod>2017-06-04T11:58:13+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://thenatureofsoftware.se/categories/</loc>
+    <lastmod>2017-01-02T10:08:37+01:00</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://thenatureofsoftware.se/categories/container/</loc>
     <lastmod>2017-06-03T11:43:35+02:00</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://thenatureofsoftware.se/tags/deis/</loc>
     <lastmod>2017-06-03T11:43:35+02:00</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://thenatureofsoftware.se/categories/devops/</loc>
     <lastmod>2017-06-03T11:43:35+02:00</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://thenatureofsoftware.se/categories/docker/</loc>
     <lastmod>2017-06-03T11:43:35+02:00</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://thenatureofsoftware.se/contact/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://thenatureofsoftware.se/tags/kubernetes/</loc>
     <lastmod>2017-06-03T11:43:35+02:00</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://thenatureofsoftware.se/categories/kubernetes/</loc>
     <lastmod>2017-06-03T11:43:35+02:00</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://thenatureofsoftware.se/workshops/</loc>
   </url>
   
   <url>
     <loc>http://thenatureofsoftware.se/categories/metod/</loc>
     <lastmod>2017-01-02T10:08:37+01:00</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://thenatureofsoftware.se/tags/microsoft/</loc>
     <lastmod>2017-06-03T11:43:35+02:00</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://thenatureofsoftware.se/about/</loc>
   </url>
   
   <url>
     <loc>http://thenatureofsoftware.se/tags/projekt/</loc>
     <lastmod>2017-01-02T10:08:37+01:00</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://thenatureofsoftware.se/tags/scrum/</loc>
     <lastmod>2017-01-02T10:08:37+01:00</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://thenatureofsoftware.se/categories/scrum/</loc>
     <lastmod>2017-01-02T10:08:37+01:00</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://thenatureofsoftware.se/tags/scrumbut/</loc>
     <lastmod>2017-01-02T10:08:37+01:00</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://thenatureofsoftware.se/tags/</loc>
+    <lastmod>2017-01-02T10:08:37+01:00</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://thenatureofsoftware.se/</loc>
-    <lastmod>2017-06-03T11:43:35+02:00</lastmod>
-    <priority>0</priority>
+    <lastmod>2017-06-04T11:58:13+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://thenatureofsoftware.se/tags/utveckling/</loc>
     <lastmod>2017-01-02T10:08:37+01:00</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   

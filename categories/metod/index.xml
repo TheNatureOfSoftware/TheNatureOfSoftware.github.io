@@ -2,34 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Metod on The Nature of Software</title>
-    <link>http://thenatureofsoftware.se/categories/metod/index.xml</link>
+    <link>http://thenatureofsoftware.se/categories/metod/</link>
     <description>Recent content in Metod on The Nature of Software</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>sv-se</language>
-    <copyright>Copyright (c) 2015 - 2017, The Nature of Software Nordic AB; all rights reserved.</copyright>
-    <atom:link href="http://thenatureofsoftware.se/categories/metod/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 02 Jan 2017 10:08:37 +0100</lastBuildDate>
+    
+	<atom:link href="http://thenatureofsoftware.se/categories/metod/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Traditionella projekt och roller vs. Agil utveckling</title>
-      <link>http://thenatureofsoftware.se/blog/2017/01/02/traditionella-projekt-och-roller-vs-agile-utv/</link>
+      <link>http://thenatureofsoftware.se/posts/traditionella-projekt-och-roller-vs-agile-utv/</link>
       <pubDate>Mon, 02 Jan 2017 10:08:37 +0100</pubDate>
       
-      <guid>http://thenatureofsoftware.se/blog/2017/01/02/traditionella-projekt-och-roller-vs-agile-utv/</guid>
-      <description>&lt;p&gt;Det är snart 16 år sedan det &lt;a href=&#34;http://agilemanifesto.org/history.html&#34;&gt;The Agile Manifesto&lt;/a&gt;
-skrevs och agil utveckling har blivit etablerat. Men det är fortfarande väldigt
-vanligt att man bedriver utveckling med en metod som &lt;a href=&#34;https://www.scrum.org/scrumbut&#34;&gt;ScrumBut&lt;/a&gt; och att den stora effekten och vinsten med agil utveckling uteblir.&lt;/p&gt;
-
-&lt;p&gt;Det svåra är att förändra organisationen till att börja arbeta, t.ex. enligt Scrum, och resultatet blir ofta att man anpassar den agila metoden till att passa organisationen.&lt;/p&gt;
-
-&lt;p&gt;Det är fortfarande vanligt att de olika disciplinerna inom mjukvaruutveckling inte jobbar tillsammans med samma mål. Kravarbetet ligger ofta långt före utveckling, för att se till så att det aldrig är tomt i backlogen, utan koppling till vad teamet arbetar med. Tester görs ofta manuellt, efter att utvecklarna är klara, antingen i en ”testsprint” eller som en aktivitet utanför teamet. 2008 skrev Robert C. Martin och Grigori Melnik artikeln &lt;a href=&#34;http://www.gmelnik.com/papers/IEEE_Software_Moebius_GMelnik_RMartin.pdf&#34;&gt;Tests and Requirements, Requirements and Tests: A Möbius Strip&lt;/a&gt;
-som beskriver hur krav och test går hand i hand och att tester kan driva kravarbetet.&lt;/p&gt;
-
-&lt;p&gt;Här följer en whiteboard video som försöker beskriva problemet. Att bygga mjukvara är svårt och kräver teamwork, låt oss inte göra det svårare än det behöver vara.&lt;/p&gt;
-
-&lt;div class=&#34;embed-responsive embed-responsive-16by9&#34;&gt;
-&lt;iframe class=&#34;embed-responsive-item&#34; src=&#34;https://www.youtube.com/embed/ucIqBXTXYJo&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-</description>
+      <guid>http://thenatureofsoftware.se/posts/traditionella-projekt-och-roller-vs-agile-utv/</guid>
+      <description>Det är snart 16 år sedan det The Agile Manifesto skrevs och agil utveckling har blivit etablerat. Men det är fortfarande väldigt vanligt att man bedriver utveckling med en metod som ScrumBut och att den stora effekten och vinsten med agil utveckling uteblir.
+Det svåra är att förändra organisationen till att börja arbeta, t.ex. enligt Scrum, och resultatet blir ofta att man anpassar den agila metoden till att passa organisationen.</description>
     </item>
     
   </channel>
