@@ -1,6 +1,6 @@
 ---
 title: "The Nature of Software"
-featured_image: "/images/strykjarnet.jpg"
+logo_image: "/images/logo-sketch-white.svg"
 description: "Vi bygger, driftar och vidareutvecklar mjukvara"
 ---
 
