@@ -2,7 +2,6 @@ baseURL = "http://thenatureofsoftware.se/"
 languageCode = "sv-se"
 title = "The Nature of Software"
 theme = "ananke"
-production = "true"
 
 MetaDataFormat = "yaml"
 DefaultContentLanguage = "en"
