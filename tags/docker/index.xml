@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Docker on The Nature of Software</title>
+    <link>http://thenatureofsoftware.se/tags/docker/</link>
+    <description>Recent content in Docker on The Nature of Software</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>sv-se</language>
+    <lastBuildDate>Tue, 12 Sep 2017 14:23:30 +0200</lastBuildDate>
+    
+	<atom:link href="http://thenatureofsoftware.se/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Docker daemon in docker</title>
+      <link>http://thenatureofsoftware.se/posts/docker_daemon_in_docker/</link>
+      <pubDate>Tue, 12 Sep 2017 14:23:30 +0200</pubDate>
+      
+      <guid>http://thenatureofsoftware.se/posts/docker_daemon_in_docker/</guid>
+      <description>So while I was working on setting up a Continuous Delivery toolchain using Kubernetes and Spinnaker I stumbled upon a little problem. Spinnaker can be used with Kubernetes for CD when you have a docker image. But you need some kind of step that transforms your application in to an image. You can trigger this step from Spinnaker by invoking the build in your favorite Continuous Integration tool.</description>
+    </item>
+    
+  </channel>
+</rss>

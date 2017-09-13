@@ -39,9 +39,27 @@
     </item>
     
     <item>
+      <title>Docker</title>
+      <link>http://thenatureofsoftware.se/tags/docker/</link>
+      <pubDate>Tue, 12 Sep 2017 14:23:30 +0200</pubDate>
+      
+      <guid>http://thenatureofsoftware.se/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jenkins</title>
+      <link>http://thenatureofsoftware.se/tags/jenkins/</link>
+      <pubDate>Tue, 12 Sep 2017 14:23:30 +0200</pubDate>
+      
+      <guid>http://thenatureofsoftware.se/tags/jenkins/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Kubernetes</title>
       <link>http://thenatureofsoftware.se/tags/kubernetes/</link>
-      <pubDate>Sat, 03 Jun 2017 11:43:35 +0200</pubDate>
+      <pubDate>Tue, 12 Sep 2017 14:23:30 +0200</pubDate>
       
       <guid>http://thenatureofsoftware.se/tags/kubernetes/</guid>
       <description></description>
@@ -80,6 +98,15 @@
       <pubDate>Mon, 02 Jan 2017 10:08:37 +0100</pubDate>
       
       <guid>http://thenatureofsoftware.se/tags/scrumbut/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Spinnaker</title>
+      <link>http://thenatureofsoftware.se/tags/spinnaker/</link>
+      <pubDate>Tue, 12 Sep 2017 14:23:30 +0200</pubDate>
+      
+      <guid>http://thenatureofsoftware.se/tags/spinnaker/</guid>
       <description></description>
     </item>
     
