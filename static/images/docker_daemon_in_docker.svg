@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="401px" height="294px" viewBox="0 0 401 294" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>docker_daemon_in_docker</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="401" height="294" rx="8"></rect>
+        <rect id="path-2" x="0" y="0" width="193" height="74" rx="8"></rect>
+        <rect id="path-3" x="0" y="0" width="193" height="74" rx="8"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Pod">
+            <g id="Rectangle">
+                <use fill="#4A90E2" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <rect stroke="#FFFFFF" stroke-width="1" x="0.5" y="0.5" width="400" height="293" rx="8"></rect>
+            </g>
+            <text font-family="CourierNewPSMT, Courier New" font-size="20" font-weight="normal" letter-spacing="-0.231250003" fill="#FFFFFF">
+                <tspan x="169" y="26">Pod</tspan>
+            </text>
+        </g>
+        <g id="dockerd" transform="translate(29.000000, 186.000000)">
+            <g id="Rectangle">
+                <use fill="#F8E71C" fill-rule="evenodd" xlink:href="#path-2"></use>
+                <rect stroke="#FFFFFF" stroke-width="1" x="0.5" y="0.5" width="192" height="73" rx="8"></rect>
+            </g>
+            <text font-family="CourierNewPSMT, Courier New" font-size="20" font-weight="normal" letter-spacing="-0.231250003" fill="#FFFFFF">
+                <tspan x="52" y="17">dockerd</tspan>
+            </text>
+        </g>
+        <g id="jnlp" transform="translate(29.000000, 45.000000)">
+            <g id="Rectangle">
+                <use fill="#F5A623" fill-rule="evenodd" xlink:href="#path-3"></use>
+                <rect stroke="#FFFFFF" stroke-width="1" x="0.5" y="0.5" width="192" height="73" rx="8"></rect>
+            </g>
+            <text font-family="CourierNewPSMT, Courier New" font-size="20" font-weight="normal" letter-spacing="-0.231250003" fill="#FFFFFF">
+                <tspan x="67" y="17">jnlp</tspan>
+            </text>
+        </g>
+        <polyline id="Line" stroke="#FFFFFF" stroke-width="2" stroke-linecap="square" stroke-dasharray="8,8" points="222 223 324 223 324 82 222 82"></polyline>
+        <path id="Line-decoration-1" d="M232.8,226 L222,223 L232.8,220" stroke="#FFFFFF" stroke-width="2" stroke-linecap="square" stroke-dasharray="8,8"></path>
+        <text id="tcp://localhost:2375" font-family="CourierNewPSMT, Courier New" font-size="20" font-weight="normal" letter-spacing="-0.231250003" fill="#FFFFFF">
+            <tspan x="70" y="157">tcp://localhost:2375</tspan>
+        </text>
+    </g>
+</svg>
