@@ -3,6 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://thenatureofsoftware.se/posts/cloud_native_utvecklare/</loc>
+    <lastmod>2017-09-15T09:19:15+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>http://thenatureofsoftware.se/posts/docker_daemon_in_docker/</loc>
     <lastmod>2017-09-12T14:23:30+02:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -59,7 +66,7 @@
   
   <url>
     <loc>http://thenatureofsoftware.se/posts/</loc>
-    <lastmod>2017-09-12T14:23:30+02:00</lastmod>
+    <lastmod>2017-09-15T09:19:15+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -101,7 +108,7 @@
   
   <url>
     <loc>http://thenatureofsoftware.se/tags/docker/</loc>
-    <lastmod>2017-09-12T14:23:30+02:00</lastmod>
+    <lastmod>2017-09-15T09:19:15+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
@@ -128,6 +135,20 @@
   </url>
   
   <url>
+    <loc>http://thenatureofsoftware.se/tags/job/</loc>
+    <lastmod>2017-09-15T09:19:15+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://thenatureofsoftware.se/categories/jobs/</loc>
+    <lastmod>2017-09-15T09:19:15+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://thenatureofsoftware.se/contact/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -135,7 +156,7 @@
   
   <url>
     <loc>http://thenatureofsoftware.se/tags/kubernetes/</loc>
-    <lastmod>2017-09-12T14:23:30+02:00</lastmod>
+    <lastmod>2017-09-15T09:19:15+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
@@ -157,6 +178,13 @@
   <url>
     <loc>http://thenatureofsoftware.se/tags/microsoft/</loc>
     <lastmod>2017-06-03T11:43:35+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://thenatureofsoftware.se/tags/nomad/</loc>
+    <lastmod>2017-09-15T09:19:15+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
@@ -197,6 +225,13 @@
   </url>
   
   <url>
+    <loc>http://thenatureofsoftware.se/categories/swedish/</loc>
+    <lastmod>2017-09-15T09:19:15+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://thenatureofsoftware.se/tags/</loc>
     <lastmod>2017-01-02T10:08:37+01:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -205,7 +240,7 @@
   
   <url>
     <loc>http://thenatureofsoftware.se/</loc>
-    <lastmod>2017-09-12T14:23:30+02:00</lastmod>
+    <lastmod>2017-09-15T09:19:15+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

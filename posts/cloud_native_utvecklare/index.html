@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
      
-    <title>The Nature of Software  | Docker daemon in docker</title>
+    <title>The Nature of Software  | Vi söker Cloud Native Utvecklare</title>
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
 
@@ -19,19 +19,17 @@
 
      
 
-      <meta property="og:title" content="Docker daemon in docker" />
-<meta property="og:description" content="Running Docker daemon in docker on build agents." />
+      <meta property="og:title" content="Vi söker Cloud Native Utvecklare" />
+<meta property="og:description" content="Vi söker efter en Cloud Native Utvecklare. Du kommer vara medlem i vårt team som utvecklar killer apps för våra kunder." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://thenatureofsoftware.se/posts/docker_daemon_in_docker/" />
+<meta property="og:url" content="http://thenatureofsoftware.se/posts/cloud_native_utvecklare/" />
 
-  <meta property="og:image" content="http://thenatureofsoftware.se/images/docker_daemon_in_docker.svg" />
-
-
-
-<meta property="article:published_time" content="2017-09-12T14:23:30&#43;02:00"/>
-<meta property="article:modified_time" content="2017-09-12T14:23:30&#43;02:00"/>
+  <meta property="og:image" content="http://thenatureofsoftware.se/images/palm_tree_cloud.jpg" />
 
 
+
+<meta property="article:published_time" content="2017-09-15T09:19:15&#43;02:00"/>
+<meta property="article:modified_time" content="2017-09-15T09:19:15&#43;02:00"/>
 
 
 
@@ -41,29 +39,31 @@
 
 
 
-<meta itemprop="name" content="Docker daemon in docker">
-<meta itemprop="description" content="Running Docker daemon in docker on build agents.">
 
 
-<meta itemprop="dateModified" content="2017-09-12T14:23:30&#43;02:00" />
-<meta itemprop="wordCount" content="535">
-
-  <meta itemprop="image" content="http://thenatureofsoftware.se/images/docker_daemon_in_docker.svg">
+<meta itemprop="name" content="Vi söker Cloud Native Utvecklare">
+<meta itemprop="description" content="Vi söker efter en Cloud Native Utvecklare. Du kommer vara medlem i vårt team som utvecklar killer apps för våra kunder.">
 
 
+<meta itemprop="dateModified" content="2017-09-15T09:19:15&#43;02:00" />
+<meta itemprop="wordCount" content="10">
 
-<meta itemprop="keywords" content="Spinnaker,Jenkins,Docker,Kubernetes," />
+  <meta itemprop="image" content="http://thenatureofsoftware.se/images/palm_tree_cloud.jpg">
+
+
+
+<meta itemprop="keywords" content="Job,Nomad,Docker,Kubernetes," />
 
 
 
   <meta name="twitter:card" content="summary_large_image"/>
-  <meta name="twitter:image:src" content="http://thenatureofsoftware.se/images/docker_daemon_in_docker.svg"/>
+  <meta name="twitter:image:src" content="http://thenatureofsoftware.se/images/palm_tree_cloud.jpg"/>
 
 
 
-<meta name="twitter:text:title" content="Docker daemon in docker"/>
-<meta name="twitter:title" content="Docker daemon in docker"/>
-<meta name="twitter:description" content="Running Docker daemon in docker on build agents."/>
+<meta name="twitter:text:title" content="Vi söker Cloud Native Utvecklare"/>
+<meta name="twitter:title" content="Vi söker Cloud Native Utvecklare"/>
+<meta name="twitter:description" content="Vi söker efter en Cloud Native Utvecklare. Du kommer vara medlem i vårt team som utvecklar killer apps för våra kunder."/>
 
 
         
@@ -83,7 +83,7 @@ ga('send', 'pageview');
 
   
   
-  <header class="cover bg-top" style="background-image: url('http://thenatureofsoftware.se/images/docker_daemon_in_docker.svg');">
+  <header class="cover bg-top" style="background-image: url('http://thenatureofsoftware.se/images/palm_tree_cloud.jpg');">
     <div class="pb3-m pb6-l bg-black-60">
       <nav class="pv3 ph3 ph4-ns" role="navigation">
   <div class="flex-l justify-between items-center center">
@@ -140,10 +140,10 @@ ga('send', 'pageview');
 </nav>
 
       <div class="tc-l pv6 ph3 ph4-ns">
-        <h1 class="f2 f1-l fw2 white-90 mb0 lh-title">Docker daemon in docker</h1>
+        <h1 class="f2 f1-l fw2 white-90 mb0 lh-title">Vi söker Cloud Native Utvecklare</h1>
         
           <h2 class="fw1 f5 f3-l white-80 measure-wide-l center lh-copy mt3 mb4">
-            Running Docker daemon in docker on build agents.
+            Vi söker efter en Cloud Native Utvecklare. Du kommer vara medlem i vårt team som utvecklar killer apps för våra kunder.
           </h2>
         
       </div>
@@ -160,84 +160,11 @@ ga('send', 'pageview');
           POSTS
         </p>
         <h1 class="f2">
-          Docker daemon in docker
+          Vi söker Cloud Native Utvecklare
         </h1>
       </header>
       <div class="nested-copy-line-height lh-copy f5 nested-links nested-img mid-gray">
-        
-
-<p>
-<figure >
-    
-        <img src="/images/docker_daemon_in_docker.svg" />
-    
-    
-</figure>
-
-So while I was working on setting up a Continuous Delivery toolchain using Kubernetes and <a href="https://spinnaker.io">Spinnaker</a> I stumbled upon a little problem. Spinnaker can be used with Kubernetes for CD when you have a docker image. But you need some kind of step that transforms your application in to an image. You can trigger this step from Spinnaker by invoking the build
-in your favorite Continuous Integration tool.</p>
-
-<p>Packaging your application in to an image often follows align with one of these scenarios:</p>
-
-<ol>
-<li>create the image as a last step of your ordinary build invoking <code>docker build</code></li>
-<li>have a separate step after your ordinary build that pulls
-your application artifact from some kind of repository and builds the image</li>
-<li>build your application using a build image and let the build artifact be an image</li>
-</ol>
-
-<p>The third alternative has become much more attractive with Docker multi-stage build, which is awesome, where you can have multiple <code>FROM</code> (stage) and copy artifacts from earlier stages.
-You can now have both small images and fully reproducible builds, without any complicated scripts.</p>
-
-<p>There&rsquo;s is a great <a href="https://wiki.jenkins.io/display/JENKINS/Kubernetes+Plugin">plugin</a> for Kubernetes that lets you dynamically provision Jenkins agents to run a single build. This is exactly what I want, and I want the agent to build and push an image on every build.</p>
-
-<p>So far we have the Kubernetes plugin in Jenkins that:
-* creates a build agent pod
-* checks out the code and delivers a reproducible build</p>
-
-<p>It&rsquo;s around here it&rsquo;s starts to get complicated. How do we let our
-build agent, who&rsquo;s running in a pod as a docker container, run docker builds? If you&rsquo;ve done this before you may be have read <a href="https://jpetazzo.github.io/2015/09/03/do-not-use-docker-in-docker-for-ci/">~jpetazzo/Using Docker-in-Docker for your CI or testing environment? Think twice.</a>. His recommendation is to run sibling containers by mounting the
-Docker socket like this:</p>
-
-<pre><code>docker run -v /var/run/docker.sock:/var/run/docker.sock \
-           -ti docker
-</code></pre>
-
-<p>This wont work in this case because we are dependent on the hosts docker version and in my case the host is running docker <code>1.12.6</code>
-with no support for multi-stage and <code>build --network host</code>.</p>
-
-<p>The problem with running sibling containers is that you introduce a dependency on the host where your build container is running. Our hosts and our build containers have very different purposes. Our hosts should deliver a rock solid infrastructure for executing containers. The build environment, on the other hand, can be using the latest and greatest to
-give us the best tools available.</p>
-
-<p>So instead of running sibling containers I decided to try <em>dind</em> (docker in docker). I&rsquo;m now using two container in the build agent pod:</p>
-
-<ul>
-<li>one <code>jnlp</code> with the latest and greatest Docker CLI</li>
-<li>one latest and greatest <code>dockerd</code> daemon</li>
-</ul>
-
-
-<figure >
-    
-        <img src="/images/spin-jenkins-slave.png" />
-    
-    
-</figure>
-
-
-<p>The docker daemon is using the <a href="https://docs.docker.com/engine/userguide/storagedriver/vfs-driver/"><code>vfs</code> storage driver</a> that should work everywhere and accepts connections on <code>tcp://localhost:2375</code>. The Docker daemon must run in <code>--privileged</code> mode.</p>
-
-<p>One of the downsides with this solution is that your build have to pull all images on every build which increases network traffic and slows down the build. One solution to this is that you can easily &ldquo;pre-pull&rdquo; the images used during the build, in a container, and commit that as the new
-image for your <code>dockerd</code> container.</p>
-
-<h3 id="links">Links</h3>
-
-<ul>
-<li><a href="https://docs.docker.com/engine/userguide/storagedriver/vfs-driver">https://docs.docker.com/engine/userguide/storagedriver/vfs-driver</a></li>
-<li><a href="https://jpetazzo.github.io/2015/09/03/do-not-use-docker-in-docker-for-ci">https://jpetazzo.github.io/2015/09/03/do-not-use-docker-in-docker-for-ci</a></li>
-<li><a href="https://wiki.jenkins.io/display/JENKINS/Kubernetes+Plugin">https://wiki.jenkins.io/display/JENKINS/Kubernetes+Plugin</a></li>
-<li><a href="https://github.com/kubernetes/charts/tree/master/stable/spinnaker">https://github.com/kubernetes/charts/tree/master/stable/spinnaker</a></li>
-</ul>
+        <div class="LI-entity-badge" data-version="v2" data-locale="sv_SE" data-entity="jserp" data-theme="light" data-type="simple" data-size="medium" data-key-companyname="The Nature of Software Nordic AB" data-key-title="Cloud Native Utvecklare"><a class="LI-simple-link" href="https://www.linkedin.com/jobs/the-nature-of-software-nordic-ab-cloud-native-utvecklare-jobs">Cloud Native Utvecklare at The Nature of Software Nordic AB</a></div>
 
       </div>
     </article>
@@ -258,14 +185,14 @@ image for your <code>dockerd</code> container.</p>
       
         <li class="list f5 w-100 hover-bg-white nl1">
           
-          <a href="/posts/cloud_native_utvecklare/" class="link ph2 pv2 db black">
+          <a href="/posts/cloud_native_utvecklare/" class="link ph2 pv2 db black o-50">
             Vi söker Cloud Native Utvecklare
           </a>
         </li>
       
         <li class="list f5 w-100 hover-bg-white nl1">
           
-          <a href="/posts/docker_daemon_in_docker/" class="link ph2 pv2 db black o-50">
+          <a href="/posts/docker_daemon_in_docker/" class="link ph2 pv2 db black">
             Docker daemon in docker
           </a>
         </li>

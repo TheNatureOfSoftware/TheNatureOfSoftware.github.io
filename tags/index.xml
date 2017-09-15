@@ -41,7 +41,7 @@
     <item>
       <title>Docker</title>
       <link>http://thenatureofsoftware.se/tags/docker/</link>
-      <pubDate>Tue, 12 Sep 2017 14:23:30 +0200</pubDate>
+      <pubDate>Fri, 15 Sep 2017 09:19:15 +0200</pubDate>
       
       <guid>http://thenatureofsoftware.se/tags/docker/</guid>
       <description></description>
@@ -57,9 +57,18 @@
     </item>
     
     <item>
+      <title>Job</title>
+      <link>http://thenatureofsoftware.se/tags/job/</link>
+      <pubDate>Fri, 15 Sep 2017 09:19:15 +0200</pubDate>
+      
+      <guid>http://thenatureofsoftware.se/tags/job/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Kubernetes</title>
       <link>http://thenatureofsoftware.se/tags/kubernetes/</link>
-      <pubDate>Tue, 12 Sep 2017 14:23:30 +0200</pubDate>
+      <pubDate>Fri, 15 Sep 2017 09:19:15 +0200</pubDate>
       
       <guid>http://thenatureofsoftware.se/tags/kubernetes/</guid>
       <description></description>
@@ -71,6 +80,15 @@
       <pubDate>Sat, 03 Jun 2017 11:43:35 +0200</pubDate>
       
       <guid>http://thenatureofsoftware.se/tags/microsoft/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nomad</title>
+      <link>http://thenatureofsoftware.se/tags/nomad/</link>
+      <pubDate>Fri, 15 Sep 2017 09:19:15 +0200</pubDate>
+      
+      <guid>http://thenatureofsoftware.se/tags/nomad/</guid>
       <description></description>
     </item>
     

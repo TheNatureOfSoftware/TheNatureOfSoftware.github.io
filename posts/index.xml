@@ -6,10 +6,19 @@
     <description>Recent content in Blogg on The Nature of Software</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>sv-se</language>
-    <lastBuildDate>Tue, 12 Sep 2017 14:23:30 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 15 Sep 2017 09:19:15 +0200</lastBuildDate>
     
 	<atom:link href="http://thenatureofsoftware.se/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Vi söker Cloud Native Utvecklare</title>
+      <link>http://thenatureofsoftware.se/posts/cloud_native_utvecklare/</link>
+      <pubDate>Fri, 15 Sep 2017 09:19:15 +0200</pubDate>
+      
+      <guid>http://thenatureofsoftware.se/posts/cloud_native_utvecklare/</guid>
+      <description>Cloud Native Utvecklare at The Nature of Software Nordic AB </description>
+    </item>
     
     <item>
       <title>Docker daemon in docker</title>
