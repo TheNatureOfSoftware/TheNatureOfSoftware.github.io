@@ -44,14 +44,14 @@
   </url>
   
   <url>
-    <loc>http://thenatureofsoftware.se/categories/agile/</loc>
+    <loc>http://thenatureofsoftware.se/tags/agile/</loc>
     <lastmod>2017-01-02T10:08:37+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://thenatureofsoftware.se/tags/agile/</loc>
+    <loc>http://thenatureofsoftware.se/categories/agile/</loc>
     <lastmod>2017-01-02T10:08:37+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
@@ -86,6 +86,12 @@
   </url>
   
   <url>
+    <loc>http://thenatureofsoftware.se/contact/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>http://thenatureofsoftware.se/categories/container/</loc>
     <lastmod>2017-06-03T11:43:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -107,15 +113,15 @@
   </url>
   
   <url>
-    <loc>http://thenatureofsoftware.se/categories/docker/</loc>
-    <lastmod>2017-06-03T11:43:35+02:00</lastmod>
+    <loc>http://thenatureofsoftware.se/tags/docker/</loc>
+    <lastmod>2017-09-15T09:19:15+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://thenatureofsoftware.se/tags/docker/</loc>
-    <lastmod>2017-09-15T09:19:15+02:00</lastmod>
+    <loc>http://thenatureofsoftware.se/categories/docker/</loc>
+    <lastmod>2017-06-03T11:43:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
@@ -149,21 +155,15 @@
   </url>
   
   <url>
-    <loc>http://thenatureofsoftware.se/contact/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://thenatureofsoftware.se/categories/kubernetes/</loc>
-    <lastmod>2017-06-03T11:43:35+02:00</lastmod>
+    <loc>http://thenatureofsoftware.se/tags/kubernetes/</loc>
+    <lastmod>2017-09-15T09:19:15+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://thenatureofsoftware.se/tags/kubernetes/</loc>
-    <lastmod>2017-09-15T09:19:15+02:00</lastmod>
+    <loc>http://thenatureofsoftware.se/categories/kubernetes/</loc>
+    <lastmod>2017-06-03T11:43:35+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
@@ -197,14 +197,14 @@
   </url>
   
   <url>
-    <loc>http://thenatureofsoftware.se/categories/scrum/</loc>
+    <loc>http://thenatureofsoftware.se/tags/scrum/</loc>
     <lastmod>2017-01-02T10:08:37+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://thenatureofsoftware.se/tags/scrum/</loc>
+    <loc>http://thenatureofsoftware.se/categories/scrum/</loc>
     <lastmod>2017-01-02T10:08:37+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>

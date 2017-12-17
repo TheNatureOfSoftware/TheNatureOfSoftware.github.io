@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blogg on The Nature of Software</title>
+    <title>Blog on The Nature of Software</title>
     <link>http://thenatureofsoftware.se/posts/</link>
-    <description>Recent content in Blogg on The Nature of Software</description>
+    <description>Recent content in Blog on The Nature of Software</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>sv-se</language>
+    <language>en</language>
     <lastBuildDate>Fri, 15 Sep 2017 09:19:15 +0200</lastBuildDate>
     
 	<atom:link href="http://thenatureofsoftware.se/posts/index.xml" rel="self" type="application/rss+xml" />

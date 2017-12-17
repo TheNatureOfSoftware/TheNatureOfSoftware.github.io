@@ -5,7 +5,7 @@
     <link>http://thenatureofsoftware.se/</link>
     <description>Recent content on The Nature of Software</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>sv-se</language>
+    <language>en</language>
     <lastBuildDate>Fri, 15 Sep 2017 09:19:15 +0200</lastBuildDate>
     
 	<atom:link href="http://thenatureofsoftware.se/index.xml" rel="self" type="application/rss+xml" />
@@ -70,14 +70,13 @@ Det svåra är att förändra organisationen till att börja arbeta, t.ex. enlig
     </item>
     
     <item>
-      <title>Kontakt</title>
+      <title>Contact</title>
       <link>http://thenatureofsoftware.se/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://thenatureofsoftware.se/contact/</guid>
-      <description>Har du några frågor? Är det något som vi kan hjälpa till med?
-Tveka inte att kontakta oss.
-Ditt namn Epostadress Epostadress är obligatoriskt  Meddelande   </description>
+      <description>If you have any questions.
+Your Name Email Address An email address is required.  Message   </description>
     </item>
     
   </channel>
