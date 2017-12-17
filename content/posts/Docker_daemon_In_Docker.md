@@ -7,6 +7,7 @@ tags: ["Spinnaker", "Jenkins", "Docker", "Kubernetes"]
 categories: ["English", "CI/CD", "DevOps"]
 featured_image: "/images/docker_daemon_in_docker.svg"
 images: ["/images/docker_daemon_in_docker.svg"]
+lang: "en"
 ---
 
 {{< figure src="/images/docker_daemon_in_docker.svg" >}}

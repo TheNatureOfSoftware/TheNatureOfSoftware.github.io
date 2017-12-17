@@ -1,5 +1,5 @@
 baseURL = "http://thenatureofsoftware.se/"
-languageCode = "sv-se"
+languageCode = "en"
 title = "The Nature of Software"
 theme = "ananke"
 

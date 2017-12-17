@@ -6,6 +6,14 @@
         <p class="f6 b helvetica tracked">
           {{ humanize .Section | upper  }}
         </p>
+        {{ with .Params.lang }}
+          {{ if eq . "sv" }}
+            <img width="32" alt="Flag of Sweden" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Flag_of_Sweden.svg/64px-Flag_of_Sweden.svg.png"/>
+          {{ end }}
+          {{ if eq . "en" }}
+          <img width="32" alt="English language" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/English_language.svg/64px-English_language.svg.png"/>
+          {{ end }}
+        {{ end }}
         <h1 class="f2">
           {{ .Title }}
         </h1>

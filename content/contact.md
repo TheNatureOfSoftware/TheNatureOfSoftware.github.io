@@ -1,13 +1,11 @@
 ---
-title: Kontakt
-description: Vi är här för att hjälpa er
+title: Contact
+description: We are here to help you succeed developing software.
 type: page
 menu:
   main: {}
 ---
 
-Har du några frågor? Är det något som vi kan hjälpa till med?
-
-Tveka inte att kontakta oss.
+If you have any questions.
 
 {{< form-contact action="https://formspree.io/feedback@thenatureofsoftware.se"  >}}

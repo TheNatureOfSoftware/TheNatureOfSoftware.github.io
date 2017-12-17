@@ -6,6 +6,7 @@ title = "Traditionella projekt och roller vs. Agil utveckling"
 draft = false
 author = "Lars Mogren"
 banner = "img/step-by-step.png"
+lang = "sv"
 +++
 
 Det är snart 16 år sedan det [The Agile Manifesto](http://agilemanifesto.org/history.html)

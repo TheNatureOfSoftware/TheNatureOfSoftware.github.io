@@ -7,6 +7,7 @@ tags: ["Job", "Nomad", "Docker", "Kubernetes"]
 categories: ["Swedish", "Jobs"]
 featured_image: "/images/palm_tree_cloud.jpg"
 images: ["/images/palm_tree_cloud.jpg"]
+lang: "sv"
 ---
 
 

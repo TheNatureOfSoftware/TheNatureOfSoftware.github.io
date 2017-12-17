@@ -6,6 +6,7 @@ tags = ["Microsoft", "Kubernetes", "Azure", "Deis"]
 author = "Lars Mogren"
 banner = "img/deis-microsoft.png"
 draft = false
+lang = "sv"
 +++
 
 Om du tror att Docker och containers bara är för Linux så är det dags att tänka

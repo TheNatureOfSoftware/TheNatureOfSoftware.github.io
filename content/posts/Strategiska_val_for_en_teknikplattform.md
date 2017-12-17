@@ -1,10 +1,11 @@
-+++
-date = "2017-06-04T11:58:13+02:00"
-title = "Strategiska val för en teknikplattform"
-tags = []
-categories = []
-
-+++
+---
+date: "2017-06-04T11:58:13+02:00"
+title: "Strategiska val för en teknikplattform"
+draft: false
+tags: []
+categories: []
+lang: "sv"
+---
 
 I ett tidigare inlägg pratade vi om att containers nu finns för alla plattformar.
 Men vad får det för påverkan på våra strategiska val när det gäller teknik?
