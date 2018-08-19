@@ -1,4 +1,4 @@
-baseURL = "http://thenatureofsoftware.se/"
+baseURL = "https://thenatureofsoftware.se/"
 languageCode = "en"
 title = "The Nature of Software"
 theme = "ananke"
