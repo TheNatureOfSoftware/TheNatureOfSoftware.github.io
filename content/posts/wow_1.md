@@ -22,7 +22,7 @@ Nygard, M. T.(2018) Living in Production. In *Release It*, Second Edition (pp. 6
 
 This is just a fact. Who will pay for rewriting the software, and how do you motivate it?
 
-#### Working Code Isn't Enough
+#### Working code isn't enough
 
 Ousterhout, J. (2018) A Philosophy of Software Design, (pp. 13).
 
