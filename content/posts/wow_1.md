@@ -18,21 +18,21 @@ So this is the first in a series of "Words of Wisdom" picked up from various pla
 
 Nygard, M. T.(2018) Living in Production. In *Release It*, Second Edition (pp. 6).
 
-#### When your codebase looks like spaghetti, it’s to late
+#### When your codebase looks like spaghetti, it’s too late
 
 This is just a fact. Who will pay for rewriting the software, and how do you motivate it?
 
 #### Working Code Isn't Enough
 
-OusterHout, J. (2018) A Philosophy of Software Design, (pp. 13).
+Ousterhout, J. (2018) A Philosophy of Software Design, (pp. 13).
 
 #### Fight all complexity
 
-Rephrased, but its origin stems from OusterHout, J. (2018) *A Philosophy of Software Design*, (pp. 1).
+Rephrased, but its origin stems from Ousterhout, J. (2018) *A Philosophy of Software Design*, (pp. 1).
 
 #### Modules, Classes and Functions should be deep
 
-Rephrased, but its origin stems once again from OusterHout, J. (2018) *A Philosophy of Software Design*, (pp. 19).
+Rephrased, but its origin stems once again from Ousterhout, J. (2018) *A Philosophy of Software Design*, (pp. 19).
 
 #### Always be aware of leaking abstractions
 
